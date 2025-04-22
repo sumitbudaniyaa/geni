@@ -1,0 +1,128 @@
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 11rem;
+
+    .helped-box{
+        width: 11rem;
+        height: 2rem;
+        border-radius: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.532);
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 100px 1px rgb(26, 139, 49);
+
+        p{
+            color: white;
+            font-size: .9rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+    }
+
+    .hero-desc{
+        width: 70%;
+        margin-top: 1.25rem;
+        
+        h1{
+            color: white;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 5rem;
+            text-align: center;
+            line-height: 5rem;
+        
+        }
+    }
+
+    .geni-box{
+        width: 70%;
+        height: 5.75rem;
+        margin-top: 5rem;
+        border: 1px solid grey;
+        border-bottom: none;
+        box-shadow: 0 0 200px 1px rgba(26, 139, 49, 0.722);
+        border-radius: 2rem;
+
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 1rem;
+
+
+        h3{
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: grey;
+            font-size: 1.5rem;
+        }
+
+        button{
+            width: 4rem;
+            height: 99%;
+            border-radius: 1.5rem;
+            display: flex;
+            justify-content: center;
+            border: none;
+            align-items: center; 
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .hero{
+
+
+
+        padding-top: 2rem;
+
+
+
+        .helped-box{
+          height: 1.5rem;
+          width: 10rem;
+
+          p{
+            font-size: .8rem;
+          }
+        }
+        .hero-desc{
+            h1{
+                font-size: 3rem;
+                line-height: 3rem;
+
+            }
+        }
+
+        .geni-box{
+            width: 95%;
+            margin-top: 2rem;
+            height: 4rem;
+            border-radius: .5rem;
+            padding: 0;
+            padding-left: 1rem;
+            padding-right: .5rem;
+
+            h3{
+                font-size: 1rem;
+            }
+
+            button{
+                border-radius: .5rem;
+                height: 80%;
+                width: 3.5rem;
+            }
+        }
+    }
+}

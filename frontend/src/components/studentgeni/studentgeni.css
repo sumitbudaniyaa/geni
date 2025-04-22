@@ -1,0 +1,183 @@
+.stud-geni{
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    row-gap: 1rem;
+    padding-bottom: 2rem;
+
+    h4{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: white;
+        font-size: 1.25rem;
+        align-self: flex-start;
+    }
+
+    input{
+        width: 100%;
+        height: 2rem;
+        border: 1px solid grey;
+        outline: none;
+        border-radius: .5rem;
+        padding-left: 1rem;
+        background-color: transparent;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: white;
+    }
+
+    
+    textarea{
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 4rem;
+        border: 1px solid grey;
+        outline: none;
+        border-radius: .5rem;
+        padding-left: 1rem;
+        padding-top: .5rem;
+        background-color: transparent;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: white;
+    }
+
+    button{
+        width: 5rem;
+        height: 2rem;
+        border: none;
+        background-color: white;
+        border-radius: .25rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        outline: none;
+        cursor: pointer;
+        align-self: flex-end;
+    }
+
+    select{
+        width: 100%;
+        outline: none;
+        height: 2rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: transparent;
+        color: white;
+        border: 1px solid grey;
+        border-radius: .5rem;
+        align-self: flex-start;
+        padding-left:.5rem;
+
+
+        option{
+            background-color: black;
+            outline: none;
+            border-radius: .5rem;
+            font-weight: 600;
+        }
+    }
+
+    .error {
+        color: red;
+        margin-bottom: 10px;
+      }
+      .result-slide ul {
+        list-style: none;
+        padding: 0;
+      }
+      .result-slide li {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+   
+    }
+
+    .result-slide {
+        width: 100%;
+        margin-top: 2rem;
+        padding: 2rem;
+        border-radius: .5rem;
+
+        h3{
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border: 1px solid #444;
+            border-radius: .5rem;
+            background-color: #2222227a;
+            transition: transform 0.2s, box-shadow 0.2s;
+
+            &:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            }
+
+            h4 {
+                font-family: "Poppins", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                color: white;
+                font-size: 1.25rem;
+                margin-bottom: 0.5rem;
+            }
+
+            p {
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #ccc;
+                margin: 0.25rem 0;
+
+                strong {
+                    color: white;
+                }
+            }
+
+            a {
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                color: #1e90ff;
+                text-decoration: none;
+                transition: color 0.2s;
+
+                &:hover {
+                    color: #63b3ed;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .stud-geni{
+        width: 100%;
+        padding: 1rem;
+    }
+}

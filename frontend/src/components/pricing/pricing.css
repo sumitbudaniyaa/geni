@@ -1,0 +1,114 @@
+.pricing{
+    width: 100%;
+    padding: 2rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 1rem;
+
+    h4{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .pricecard{
+        width: 20%;
+        height: 20em;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgba(255, 255, 255, 0.264);
+        box-shadow: 0 0 200px 1px rgba(26, 139, 49, 0.285);
+        border-radius: 2rem;
+        margin-bottom: 1rem;
+        padding: 2rem;
+        
+        h3{
+            color: white;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+
+        p{
+            color: grey;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 1.1rem;
+        }
+
+        span{
+            color: white;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 4.5rem;
+
+            code{
+                font-size: .9rem;
+                color: grey;
+                font-family: "Poppins", sans-serif;
+                font-weight: 200;
+                font-style: normal;
+            }
+        }
+
+        button{
+            
+            height: 2.5rem;
+            border-radius: .5rem;
+            border: none;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            font-style: normal;
+            margin-top: auto;
+        }
+
+        code{
+            font-size: .9rem;
+            color: grey;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            align-self: flex-end;
+        }
+        
+    &.corp{
+        span{
+            font-size: 3rem;
+        }
+    }
+    }
+
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    .pricing{
+    .pricecard{
+        width: 100%;
+            
+
+        span{
+            font-size: 2.5rem;
+        }
+
+                
+    &.corp{
+        span{
+            font-size: 2.5rem;
+        }
+    }
+    }
+}
+}

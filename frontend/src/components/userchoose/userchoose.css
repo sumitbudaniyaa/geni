@@ -1,0 +1,85 @@
+.choose{
+    width: 25%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+
+
+    h4{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: white;
+    }
+
+    .checkers{
+        display: flex;
+        justify-content: space-around;
+
+        button{
+            width: 10rem;
+            height: 10rem;
+            border-radius: .5rem;
+            border: none;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 1rem;
+            transition: all .20s linear;
+            background-color: transparent;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.532);
+            cursor: pointer;
+
+            &.student{
+            
+                &.active{
+                    background-color: white;
+                    color: black;
+                }
+            }
+
+
+            &.worker{
+                
+                &.active{
+                    background-color: white;
+                    color: black;
+                }
+            }
+
+            
+        }
+    }
+
+    button{
+        width: 5rem;
+        height: 2rem;
+        border: none;
+        border-radius: .25rem;
+        align-self: flex-end;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .choose{
+        width: 100%;
+        padding: 1rem;
+
+
+        .checkers{
+           button{
+            width: 8rem;
+            height: 8rem;
+           }
+        }
+    }
+}
