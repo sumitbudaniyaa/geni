@@ -85,7 +85,7 @@
     .hero{
 
 
-height: 100vh;
+height: 90vh;
         padding-top: 2rem;
 
 
@@ -114,7 +114,6 @@ height: 100vh;
             padding: 0;
             padding-left: 1rem;
             padding-right: .5rem;
-            margin-top: auto;
 
             h3{
                 font-size: 1rem;
