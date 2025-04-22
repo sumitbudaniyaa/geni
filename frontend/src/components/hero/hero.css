@@ -85,7 +85,6 @@
     .hero{
 
 
-height: 80vh;
         padding-top: 2rem;
 
 
@@ -108,13 +107,14 @@ height: 80vh;
 
         .geni-box{
             width: 95%;
-            margin-top: auto;
+            margin-top: 2rem;
             height: 4rem;
             border-radius: .5rem;
             padding: 0;
             padding-left: 1rem;
             padding-right: .5rem;
             margin-bottom: 2rem;
+            border-bottom: 1px solid grey;
 
             h3{
                 font-size: 1rem;
