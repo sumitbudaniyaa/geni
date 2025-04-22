@@ -41,6 +41,7 @@
         font-style: normal;
         outline: none;
         cursor: pointer;
+        color: black;
         align-self: flex-end;
     }
 }

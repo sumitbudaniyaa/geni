@@ -75,6 +75,7 @@
             border: none;
             align-items: center; 
             cursor: pointer;
+            color: black;
         }
     }
 }
@@ -113,6 +114,7 @@
             padding: 0;
             padding-left: 1rem;
             padding-right: .5rem;
+            margin-top: auto;
 
             h3{
                 font-size: 1rem;
@@ -122,6 +124,7 @@
                 border-radius: .5rem;
                 height: 80%;
                 width: 3.5rem;
+                
             }
         }
     }

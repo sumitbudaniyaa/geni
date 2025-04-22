@@ -60,6 +60,7 @@
         cursor: pointer;
         align-self: flex-end;
         transition: background-color 0.2s;
+        color: black;
 
         &:hover {
             background-color: #e0e0e0;
