@@ -3,6 +3,10 @@ import { useState } from 'react';
 import axios from 'axios';
 
 const StudGeni = () => {
+
+
+  const URL = import.meta.env.VITE_API_URL + "/api/recommend";
+
   const [formData, setFormData] = useState({
     class10: '',
     class12: '',
@@ -55,7 +59,7 @@ const StudGeni = () => {
 
     setLoading(true);
     try {
-      const res = await axios.post('http://localhost:5000/api/recommend', formData);
+      const res = await axios.post(URL, formData);
       setResponseData(res.data.recommendations);
       setShowResult(true);
     } catch (err) {

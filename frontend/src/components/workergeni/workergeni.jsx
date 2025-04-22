@@ -4,6 +4,8 @@ import axios from 'axios';
 
 const WorkerGeni = () =>{
 
+  const URL = import.meta.env.VITE_API_URL + "/api/upskill";
+
     const [formData, setFormData] = useState({
         currentSkills: '',
         desiredSkill: '',
@@ -47,7 +49,7 @@ const WorkerGeni = () =>{
         setLoading(true);
         console.log('Submitting formData:', formData);
         try {
-          const res = await axios.post('http://localhost:5000/api/upskill', formData);
+          const res = await axios.post(URL, formData);
           console.log('API response:', res.data);
           setResponseData(res.data.recommendations);
           setShowResult(true);
